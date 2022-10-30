@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container" style="margin-top: 10px;">
+        <div class="row" style="border: 1px darkgrey solid; border-radius: 10px; width: 50%; margin: 0 auto; padding: 20px;">
+            <div class="col-sm-12">
+                <h2 class="myclass">TakeHome</h2>
+                <form action="/takehome" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label>Nama</label>
+                        <input type="text " class="form-control" name="inputname " placeholder="Enter Name" />
+                    </div>
+                    <div class="form-group">
+                        <label>Tanggal Lahir</label>
+                        <input type="date" class="form-control" name="inputdate " placeholder="Enter Date" />
+                    </div>
+                    <div class="form-group">
+                        <label>Foto</label>
+                        <input type="file" class="form-control" name="inputimage " placeholder="Enter photo" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="reset" class="btn btn-primary">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

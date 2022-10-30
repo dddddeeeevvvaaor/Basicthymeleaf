@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>Selamat Datang</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>Selamat Datang</center>
+        <hr>
+        <p th:text="${name}"></p>
+        <p th:text="${date}"></p>
+        <p th:text="${image}"></p>
+        <img th:src="${image}" alt="Photo confirmation" ></img>
+
+    </body>
+</html>
