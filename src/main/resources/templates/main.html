@@ -10,7 +10,6 @@ and open the template in the editor.
         <title>Selamat Datang</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <center>Selamat Datang</center>
@@ -18,7 +17,7 @@ and open the template in the editor.
         <p th:text="${name}"></p>
         <p th:text="${date}"></p>
         <p th:text="${image}"></p>
-        <img th:src="${image}" alt="Photo confirmation" ></img>
-
+        <img th:src="${image}" alt="Photo confirmation" id="display-image"></img>
+        <div id="display-image" <img th:src="${image}" alt="Photo confirmation"></img>></div>
     </body>
 </html>
